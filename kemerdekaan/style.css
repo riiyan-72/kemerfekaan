@@ -1,0 +1,337 @@
+/* Responsif */
+body {
+	  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, "helvetica neue", Arial, sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol";
+  font-size: 14px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  margin: 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background: #FBD3E9;  /* fallback for old browsers */
+ 
+  background: -webkit-linear-gradient(right, #FBD3E9,  #C00E0E, #C00E0E, #C00E0E, #FBD3E9); /* For Safari 5.1 to 6.0 */
+	
+}
+.container{
+	margin-top: -2%;
+	max-width: 1000px;
+	margin: 20px auto;
+	
+	overflow: hidden;
+	padding: -50px;
+}
+.container5{
+	margin-top: -2%;
+	max-width: 500px;
+	margin: 20px auto;
+	
+	overflow: hidden;
+	padding: -50px;
+}
+.colored { width: 100%; height:4px; overflow:hidden; position:relative; top:0px; left:0px ;}
+.colored div{ height:4px; width:20%; float:left;}
+.black{background-color: #3C4C21;}
+.blue{background-color: #3C4C21;}
+.aqua {background-color: #3C4C21;}
+.green{ background-color: #3C4C21;}
+.yellow {background-color: #3C4C21;}
+.red {background-color: #3C4C21;}
+
+
+
+
+
+.header{
+	border: 1px solid #222;
+	padding: 10px;
+	margin: 10px;
+	
+}
+
+/* Main */
+	.left{
+		width: 350px;
+		border: 2px solid #222;
+		border-radius: 6px;
+		background: #FFFF ;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+		box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.5);
+		
+	}
+	.left img{
+			max-width: 100%;
+			height: auto;
+		}
+
+	.middle{
+		width: 550px;
+		border:2px solid #222;
+		border-radius: 6px;
+		background:	#FFF ;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+		box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.5);
+	}
+	
+	
+	
+		.middle img{
+			max-width: 100%;
+			height: auto;
+		}
+.alogin{
+		width: 100px center;
+        height: 300px;
+		border: 3px solid #222;
+		border-radius: 500px;
+		background: #FCFCEA ;
+		padding: 10px;
+		margin: 10px;
+		box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.5);
+		
+	}		
+		
+
+.footer{
+	clear: both;
+	border: 3px solid #222;
+	border-radius: 3px;
+	background: #FFF ;
+	
+}
+.footer1{
+	
+	clear: both;
+	border: 3px solid #222;
+	border-radius: 9px;
+	padding: 10px;
+	margin: 10px;
+		background:	#FFF ;
+		
+}
+.footer2{
+	
+	clear: both;
+	border: 3px solid #222;
+	border-radius: 3px;
+	padding: 10px;
+	margin: 10px;
+	background:#FFF;
+	
+}
+.middle img{
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 1080px) {
+	
+	.container {
+		width: 100%;
+	}
+	.left {
+		width: 25%;
+		background:#FFF ;
+	}
+	.middle {
+		width: 63%;
+		float: right;
+		background:#FFF ;
+	}
+	
+	.right {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+		background: #FFF;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	
+	.header, 
+	.footer{
+		text-align: center;
+	}
+	.left {
+		width: auto;
+		float: none;
+	}
+	
+	.middle {
+		width: auto;
+		float: none;
+	}
+	
+	.right {
+		width: auto;
+		float: none;
+	}
+
+}
+
+/* Isi */
+.form_login {
+	display: block;
+	border: 1px solid  #FF0000;
+	border-radius: 6px;
+width: 100%;
+height: 40px;
+padding: 5px 5px;
+font-size: 20px;
+line-height: 1.42857143;
+color: #111111;
+text-align:center;
+	background: #FFF ;
+	opacity: 0.9;
+	-webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+	box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.5);
+}
+
+.login1 {
+	width: 100%;
+	height: 35px;
+	line-height: 10px;
+	padding: 5px 5px;
+	 display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  background: -webkit-linear-gradient(right, #FBD3E9,#C00E0E, #C00E0E,#C00E0E, #C00E0E,#C00E0E, #C00E0E, #C00E0E, #FBD3E9); /* For Safari 5.1 to 6.0 */
+ border: 1px solid #F83170;
+  border-radius: 4px;
+  color:#fff;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight:bold;
+	box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.5);
+	
+}
+
+.login1:hover {
+    box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.5);
+	color:#fff;
+	font-size:18px;
+	opacity: 0.9;
+	border: 1px solid #242E11;
+	border-radius: 6px;
+
+	
+	
+}
+.main-menu {
+	margin-top: 15px;
+	text-align: center;
+}
+.main-menu a {
+	color:#555;
+	margin-right: 12px;
+	font-size: 16px;
+}	
+.main-menu :hover {
+	color:#242E11;
+	font-weight:bold;	
+}
+.login:before,
+.package:before,
+.coverage:before
+.android:before
+.laptop:before,
+.contact:before,
+.status:before {
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	text-decoration: inherit;
+	vertical-align: text-bottom;
+}
+.table,.table2{
+	width:100%;
+	font-size:12px;
+	border-collapse:collapse!
+important}.notice{
+	background-color:#fff8e1;
+	border-radius:3px;
+	padding:5px;
+	margin-bottom:10px;
+    font-size:13px;
+    color:#fff}
+.table td,
+.table th{
+	padding:3px;
+    border:1px solid #044604!
+important;
+    color:#999}
+.table td,a,th{
+	color:#999;
+    text-decoration:none}
+.table2{
+	background-color:transparent;
+	text-align:left}
+.table2 td,
+.table2 th{
+	padding:4px;
+	padding-left:10px;
+	border:1px solid #333!
+important}
+.table2 td,a,th{
+	color:#555;
+	text-decoration:none}@media screen and (max-width:600px){
+		
+}
+.small-button1{
+ display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  
+    background: -webkit-linear-gradient(right, #FBD3E9,#C00E0E, #C00E0E,#C00E0E, #C00E0E,#C00E0E, #C00E0E, #C00E0E, #FBD3E9); /* For Safari 5.1 to 6.0 */
+ border: 1px solid #F83170;
+  border-radius: 4px;
+  color:#fff;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight:bold;
+
+	height:35px;
+	width:49%;
+		box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.5);
+}
+.small-button1:hover {
+	color:#fff;
+	 font-size: 19px;
+	background-color:#FF0000;
+	border-color:#FF0000;
+		box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.5);
+}
+
+.notice{
+  background-color:#FF0000;
+  border-radius:3px;
+  border: 1px solid #FF0000;
+  padding:5px;
+  margin-bottom:10px;
+  font-size:14px;
+  color: #FFF;
+  box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.5);
+}		
+
+
